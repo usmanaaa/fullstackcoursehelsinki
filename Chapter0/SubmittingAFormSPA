@@ -1,0 +1,14 @@
+title Submitting a Form - SPA
+
+note over browser:
+browser executes event handler
+that adds the new note to notes,
+rerenders to page, and then sends
+to server
+end note
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note over server:
+The server receives JSON-data from the POST
+request containing the note's content and date.
+end note
+
