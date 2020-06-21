@@ -17,6 +17,8 @@ const Statistic = (props) => {
   )
 }
 
+console.log();
+
 const Statistics = (props) => {
   const { good, neutral, bad, average, total, posFeedback } = props
 
